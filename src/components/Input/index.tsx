@@ -1,7 +1,9 @@
 import React,{ useEffect, useRef } from 'react';
 import { TextInputProps } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialIcons';
 import {useField} from '@unform/core';
+
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import IconCommunity from 'react-native-vector-icons/MaterialCommunityIcons';
 
 interface InputProps extends TextInputProps {
   name: string;

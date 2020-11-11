@@ -110,7 +110,7 @@ const ConfigParams = () => {
             <ContainerInputParam>
               <Input
                 name="tempo4"
-                icon="input"
+                icon="access-time"
                 placeholder="Tempo"
                 autoCapitalize="none"
                 keyboardType="number-pad"
@@ -157,7 +157,7 @@ const ConfigParams = () => {
             <ContainerInputParam>
               <Input
                 name="tempo5"
-                icon="input"
+                icon="access-time"
                 placeholder="Tempo"
                 autoCapitalize="none"
                 keyboardType="number-pad"

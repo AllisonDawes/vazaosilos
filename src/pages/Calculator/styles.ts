@@ -5,6 +5,7 @@ export const Header = styled.View`
   height: 70px;
   padding: 15px 15px;
   background: #043c4e;
+  margin-bottom: 10px;
 
   flex-direction: row;
   align-items: center;
@@ -75,6 +76,7 @@ export const TitleVazaoCalha = styled.Text`
   font-weight: bold;
   color: #fff;
   align-self: center;
+  margin: 25px 0 5px;
 `;
 
 export const PorcentagemSilo = styled.View`

@@ -104,7 +104,7 @@ const Calculator = () => {
   }
 
   function upFreq4() {
-    if (Number(params?.frequencia4) < 100 && Number(params?.frequencia4) > 10) {
+    if (Number(params?.frequencia4) < 100 && Number(params?.frequencia4) >= 10) {
       const freq4 = Number(params?.frequencia4) + 5;
       const pes4 = (Number(params?.peso4) + (Number(params?.peso4) * 5) / 100);
 
@@ -124,7 +124,7 @@ const Calculator = () => {
   }
 
   function downFreq4() {
-    if (Number(params?.frequencia4) > 10 && Number(params?.frequencia4) < 100) {
+    if (Number(params?.frequencia4) > 10 && Number(params?.frequencia4) <= 100) {
       const freq4 = Number(params?.frequencia4) - 5;
       const pes4 = (Number(params?.peso4) - (Number(params?.peso4) * 5) / 100);
 
@@ -144,7 +144,7 @@ const Calculator = () => {
   }
 
   function upFreq5() {
-    if (Number(params?.frequencia5) < 100 && Number(params?.frequencia5) > 10) {
+    if (Number(params?.frequencia5) < 100 && Number(params?.frequencia5) >= 10) {
       const freq5 = Number(params?.frequencia5) + 5;
       const pes5 = (Number(params?.peso5) + (Number(params?.peso5) * 5) / 100);
 
@@ -164,7 +164,7 @@ const Calculator = () => {
   }
 
   function downFreq5() {
-    if (Number(params?.frequencia5) > 10 && Number(params?.frequencia5) < 100) {
+    if (Number(params?.frequencia5) > 10 && Number(params?.frequencia5) <= 100) {
       const freq5 = Number(params?.frequencia5) - 5;
       const pes5 = (Number(params?.peso5) - (Number(params?.peso5) * 5) / 100);
 
@@ -190,7 +190,7 @@ const Calculator = () => {
   return (
     <>
       <Header>
-        <TitleHeader>Blend de Alimentação Moagem</TitleHeader>
+        <TitleHeader>Alimentação Moagem</TitleHeader>
 
         <ButtonRouteConfig onPress={() => navigation.navigate('ConfigParams')}>
           <Icon name="settings" size={32} color="#fff" />
@@ -212,7 +212,7 @@ const Calculator = () => {
               autoCapitalize="none"
               autoCorrect={false}
               keyboardType="numeric"
-              maxLength={4}
+              maxLength={5}
             />
 
             <Input
@@ -222,7 +222,7 @@ const Calculator = () => {
               autoCapitalize="none"
               autoCorrect={false}
               keyboardType="numeric"
-              maxLength={4}
+              maxLength={5}
             />
           </ContainerForm>
 

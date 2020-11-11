@@ -16,6 +16,6 @@ export const Container = styled.View`
 export const TextInput = styled.TextInput`
   flex: 1;
   color: #043c4e;
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 5px;
 `;
