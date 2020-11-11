@@ -1,0 +1,5 @@
+primary = #144D5E
+primary dark = #043C4E
+
+secundary = #26C48E
+secundary dark = #078A57
