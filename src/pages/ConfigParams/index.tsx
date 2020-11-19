@@ -91,7 +91,7 @@ const ConfigParams = () => {
         <Form ref={formRef} onSubmit={handleConfig}>
           <BorderContainer>
 
-            <Title>Silo 4</Title>
+            <Title>Parâmetros - Silo 4</Title>
 
             <ContainerInputParam>
               <Input
@@ -138,7 +138,7 @@ const ConfigParams = () => {
 
           <BorderContainer>
 
-            <Title>Silo 5</Title>
+            <Title>Parâmetros - Silo 5</Title>
 
             <ContainerInputParam>
               <Input

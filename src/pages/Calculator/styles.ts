@@ -28,6 +28,7 @@ export const Container = styled.ScrollView`
 `;
 
 export const ContainerResultBlendBorder = styled.View`
+  flex: 1;
   background: #043c4e;
   border-width: 1px;
   border-color: #fff;
@@ -59,12 +60,13 @@ export const ContainerForm = styled.View`
 `;
 
 export const ContainerPorcentagemMistura = styled.View`
-  height: 215px;
+  flex: 1;
   background: #043c4e;
   padding: 3px 3px;
   border-radius: 8px;
   border-width: 1px;
   border-color: #fff;
+  margin: 20px 0;
 
   flex-direction: row;
   align-items: center;
@@ -72,11 +74,11 @@ export const ContainerPorcentagemMistura = styled.View`
 `;
 
 export const TitleVazaoCalha = styled.Text`
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: #fff;
   align-self: center;
-  margin: 25px 0 5px;
+  margin: 0 0 5px;
 `;
 
 export const PorcentagemSilo = styled.View`

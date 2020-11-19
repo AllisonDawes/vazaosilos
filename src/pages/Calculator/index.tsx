@@ -226,24 +226,29 @@ const Calculator = () => {
             />
           </ContainerForm>
 
-          <TitleVazaoCalha>Vazão da Calha</TitleVazaoCalha>
           <ContainerPorcentagemMistura>
 
           <PorcentagemSilo>
+            <TitleVazaoCalha>Vazão Calha 4</TitleVazaoCalha>
             <PorcentagemButton onPress={upFreq4}>
               <IconAntDesign name="caretup" size={64} color="#fff" />
             </PorcentagemButton>
-            { params?.frequencia4 ? (<ValuePorcentagem>{params?.frequencia4} hz</ValuePorcentagem>) : null }
+            { params?.frequencia4 ? (<ValuePorcentagem>{params?.frequencia4} hz</ValuePorcentagem>)
+              : (
+                <ValuePorcentagem>0 hz</ValuePorcentagem>)}
             <PorcentagemButton onPress={downFreq4}>
               <IconAntDesign name="caretdown" size={64} color="#fff" />
             </PorcentagemButton>
           </PorcentagemSilo>
 
           <PorcentagemSilo>
+            <TitleVazaoCalha>Vazão Calha 5</TitleVazaoCalha>
             <PorcentagemButton onPress={upFreq5}>
               <IconAntDesign name="caretup" size={64} color="#fff" />
             </PorcentagemButton>
-            {params?.frequencia5 ? (<ValuePorcentagem>{params?.frequencia5} hz</ValuePorcentagem>) : null}
+            {params?.frequencia5 ? (<ValuePorcentagem>{params?.frequencia5} hz</ValuePorcentagem>)
+            : (
+              <ValuePorcentagem>0 hz</ValuePorcentagem>)}
             <PorcentagemButton onPress={downFreq5}>
               <IconAntDesign name="caretdown" size={64} color="#fff" />
             </PorcentagemButton>

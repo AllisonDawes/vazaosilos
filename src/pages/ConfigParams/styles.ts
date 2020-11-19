@@ -47,6 +47,7 @@ export const ParamRegister = styled.Text`
 `;
 
 export const BorderContainer = styled.View`
+  background: #043c4e;
   border-width: 1px;
   border-color: #fff;
   padding: 0 10px 0;
